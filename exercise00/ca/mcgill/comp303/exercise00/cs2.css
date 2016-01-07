@@ -1,0 +1,12 @@
+.root {
+     -fx-background-image: url("background2.jpg");
+}
+
+.label, .radio-button {
+    -fx-background-color: rgba(255,255,255,0.8);
+    -fx-background-radius: 3;
+    -fx-padding: 3px;
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+}
+
