@@ -10,4 +10,12 @@ import java.util.Map;
 public class Corporation
 {
 	private Map<String, Inventory> aInventories = new HashMap<String, Inventory>();
+	
+	/**
+	 * @param pInventory An inventory to add to the corporation.
+	 */
+	public void addInventory(Inventory pInventory)
+	{
+		aInventories.put(pInventory.getName(), pInventory);
+	}
 }
