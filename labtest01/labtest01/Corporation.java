@@ -18,4 +18,5 @@ public class Corporation
 	{
 		aInventories.put(pInventory.getName(), pInventory);
 	}
+
 }
