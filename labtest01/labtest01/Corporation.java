@@ -1,13 +1,14 @@
 package labtest01;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 
 /**
  * Represents a company that owns and operates
  * one or more grocery stores, each with its own inventory.
  */
-public class Corporation
+public class Corporation implements Iterable<Inventory>
 {
 	private Map<String, Inventory> aInventories = new HashMap<String, Inventory>();
 	
@@ -17,6 +18,12 @@ public class Corporation
 	public void addInventory(Inventory pInventory)
 	{
 		aInventories.put(pInventory.getName(), pInventory);
+	}
+
+	@Override
+	public Iterator<Inventory> iterator()
+	{
+		return aInventories.values().iterator();
 	}
 
 }
