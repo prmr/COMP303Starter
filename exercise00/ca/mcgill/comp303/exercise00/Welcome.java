@@ -27,11 +27,11 @@ public class Welcome extends Application implements EventHandler<ActionEvent>, C
 	private static final int MARGIN = 10;
 	private static final int WIDTH = 180;
 	private static final int HEIGHT = 200;
-	private static final String part_1 = "Welcome";
+	private static final String PART_1 = "Welcome";
 	private static final String PART_2 = "to COMP 303";
 
-	
-	private Label text = new Label();
+	private AlternatingLabelProvider aLabelProvider = new AlternatingLabelProvider(PART_1, PART_2);
+	private Label aText = new Label();
 	private Button aButton = new Button("Toggle");
 	private ToggleGroup aSkin = new ToggleGroup();
 	private Scene aScene;
@@ -40,15 +40,16 @@ public class Welcome extends Application implements EventHandler<ActionEvent>, C
 	 * Launches the application.
 	 * @param pArgs This program takes no argument.
 	 */
-	public static void main(String[] pArgs) {
+	public static void main(String[] pArgs) 
+	{
         launch(pArgs);
     }
     
     @Override
     public void start(Stage pPrimaryStage) 
     {
-		text.setText(part_1);
-        pPrimaryStage.setTitle("Welcome to COMP303");
+		aText.setText(PART_1);
+        pPrimaryStage.setTitle(aLabelProvider.getBoth());
         aButton.setOnAction(this);
         
         aSkin.selectedToggleProperty().addListener(this);
@@ -69,7 +70,7 @@ public class Welcome extends Application implements EventHandler<ActionEvent>, C
         VBox centerPanel = new VBox(MARGIN);
         centerPanel.setPadding(new Insets(MARGIN));
         centerPanel.setAlignment(Pos.CENTER);
-        centerPanel.getChildren().addAll(text, aButton);
+        centerPanel.getChildren().addAll(aText, aButton);
         
         BorderPane root = new BorderPane();
         root.setCenter(centerPanel);
@@ -89,14 +90,7 @@ public class Welcome extends Application implements EventHandler<ActionEvent>, C
 	@Override
 	public void handle(ActionEvent pActionEvent) 
 	{
-		if( text.getText().equals(part_1))
-		{
-			text.setText(PART_2);
-		}
-		else
-		{
-			text.setText(part_1);
-		}
+		aText.setText(aLabelProvider.getLabel(aText.getText().equals(aLabelProvider.getLabel(false))));
 	}
 
 	@Override

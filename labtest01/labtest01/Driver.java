@@ -8,6 +8,7 @@ import java.util.Random;
  */
 public final class Driver
 {
+	private static final int MAX_STOCK = 50;
 	private static final Item ITEM_CEREAL = new Item("Cereal", 1, 200);
 	private static final Item ITEM_JAM = new Item("Jam", 2, 400);
 	private static final Item ITEM_BUTTER = new Item("Butter", 3, 250);
@@ -27,9 +28,9 @@ public final class Driver
 		Inventory inventory3 = new Inventory("IGA Location 3");
 		for( Item item : ITEMS )
 		{
-			inventory1.stock(item, random.nextInt(50));
-			inventory2.stock(item, random.nextInt(50));
-			inventory3.stock(item, random.nextInt(50));
+			inventory1.stock(item, random.nextInt(MAX_STOCK));
+			inventory2.stock(item, random.nextInt(MAX_STOCK));
+			inventory3.stock(item, random.nextInt(MAX_STOCK));
 		}
 		Corporation iga = new Corporation();
 		iga.addInventory(inventory1);
