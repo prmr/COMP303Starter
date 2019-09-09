@@ -2,7 +2,7 @@
 
 Starter project configuration for the course [COMP 303 Software Development](https://github.com/prmr/COMP303)  at McGill University
 
-This repository is configured to be seamlessly into the latest version of the [Eclipse IDE](https://www.eclipse.org/). However, if you know what you are doing, you can import the project into the IDE of your choice. The code are instructions are for Java 8.
+This repository is configured to be seamlessly imported into the latest version of the [Eclipse IDE](https://www.eclipse.org/). However, if you know what you are doing, you can import the project into the IDE of your choice. The code are instructions are for Java 8.
 
 To set yourself up:
 
