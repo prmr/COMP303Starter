@@ -1,6 +1,6 @@
 # COMP303 Starter Project
 
-Starter project configuration for the course [COMP 303 Software Development](https://github.com/prmr/COMP303)  at McGill University
+Starter project configuration for the course [COMP 303: Software Design](https://github.com/prmr/COMP303)  at McGill University
 
 This repository is configured to be seamlessly imported into the latest version of the [Eclipse IDE](https://www.eclipse.org/). However, if you know what you are doing, you can import the project into the IDE of your choice and find the corresponding tools. The code are instructions are for Java 8.
 
@@ -31,4 +31,4 @@ Once everything works as described above, try the following:
 
 Unless otherwise noted, the content of this repository is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. 
 
-Copyright Martin P. Robillard 2017
+Copyright Martin P. Robillard 2019
