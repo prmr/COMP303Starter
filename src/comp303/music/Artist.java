@@ -1,4 +1,4 @@
-package music;
+package comp303.music;
 
 /**
  * Represents a musical artist.

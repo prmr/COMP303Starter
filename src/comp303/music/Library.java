@@ -1,4 +1,4 @@
-package music;
+package comp303.music;
 
 import java.util.ArrayList;
 import java.util.List;

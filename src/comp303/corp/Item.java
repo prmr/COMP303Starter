@@ -1,4 +1,4 @@
-package labtest01;
+package comp303.corp;
 
 /**
  * An item in a grocery store: 

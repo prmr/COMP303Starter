@@ -1,4 +1,4 @@
-package ca.mcgill.comp303.exercise00;
+package comp303.demo;
 
 
 import javafx.application.Application;
