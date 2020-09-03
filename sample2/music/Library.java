@@ -9,5 +9,6 @@ import java.util.List;
  */
 public class Library
 {
+	@SuppressWarnings("unused")
 	private List<Song> aSongs = new ArrayList<>();
 }

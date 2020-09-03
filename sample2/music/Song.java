@@ -5,8 +5,12 @@ package music;
  */
 public class Song
 {
+	@SuppressWarnings("unused")
 	private String aName;
+	@SuppressWarnings("unused")
 	private AudioFormat aFormat;
+	@SuppressWarnings("unused")
 	private int aBpm;
+	@SuppressWarnings("unused")
 	private Genre aGenre;
 }
