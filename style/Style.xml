@@ -12,7 +12,7 @@
   <property name="severity" value="warning"/>
   <module name="TreeWalker">
     <module name="JavadocMethod">
-      <property name="scope" value="protected"/>
+      <property name="accessModifiers" value="protected"/>
     </module>
     <module name="JavadocType">
       <property name="scope" value="package"/>
