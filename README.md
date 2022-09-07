@@ -7,10 +7,13 @@ This repository is configured to be seamlessly imported into the latest version 
 To set yourself up:
 
 1. Make sure you have [Eclipse for Java](https://www.eclipse.org/) (or your favorite Java IDE) and [Java 17 or higher](https://jdk.java.net/).
-2. Install the Checkstyle Eclipse Plug-in. In Eclipse, select `Help | Eclipse Marketplace...` and enter `Checkstyle` in the `Find:` box. From the results, install `Checkstyle Plug-In...`.
-3. Clone this GitHub repository into your Eclipse workspace. In the Eclipse package explorer, right-click and select `Import... | Git -> Projects from Git | Clone URI` and under URI enter `https://github.com/prmr/COMP303Starter`, then click-through, requesting to import existing Eclipse projects. Once imported, the project should compile without errors.
-4. While you're at it, clone the [JetUML](https://github.com/prmr/JetUML) project into your Eclipse workspace. For convenience, you can also [install it](https://github.com/prmr/JetUML/blob/master/docs/install.md).
-5. Similarly, clone the [Minesweeper](https://github.com/prmr/Minesweeper) and [Solitaire](https://github.com/prmr/Solitaire) projects into your Eclipse workspace.
+2. Install JavaFX and create a library for it in Eclipse by following [these instructions](https://openjfx.io/openjfx-docs/#IDE-Eclipse)
+3. Make sure you call your library `JavaFX14` even if you are using a different version.
+4. **If on a Mac**, when you run the application, from the run configuration, make sure the checkbox "Use the -XstartOnFirstThread argument when launching with SWT" is not checked. 
+5. Install the Checkstyle Eclipse Plug-in. In Eclipse, select `Help | Eclipse Marketplace...` and enter `Checkstyle` in the `Find:` box. From the results, install `Checkstyle Plug-In...`.
+6. Clone this GitHub repository into your Eclipse workspace. In the Eclipse package explorer, right-click and select `Import... | Git -> Projects from Git | Clone URI` and under URI enter `https://github.com/prmr/COMP303Starter`, then click-through, requesting to import existing Eclipse projects. Once imported, the project should compile without errors.
+7. While you're at it, clone the [JetUML](https://github.com/prmr/JetUML) project into your Eclipse workspace. For convenience, you can also [install it](https://github.com/prmr/JetUML/blob/master/docs/install.md).
+8. Similarly, clone the [Minesweeper](https://github.com/prmr/Minesweeper) and [Solitaire](https://github.com/prmr/Solitaire) projects into your Eclipse workspace.
 
 To ensure that everything works and start experimenting:
 
