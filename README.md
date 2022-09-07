@@ -15,6 +15,8 @@ To set yourself up:
 7. While you're at it, clone the [JetUML](https://github.com/prmr/JetUML) project into your Eclipse workspace. For convenience, you can also [install it](https://github.com/prmr/JetUML/blob/master/docs/install.md).
 8. Similarly, clone the [Minesweeper](https://github.com/prmr/Minesweeper) and [Solitaire](https://github.com/prmr/Solitaire) projects into your Eclipse workspace.
 
+> If you do get a build error, make sure you have the correct version of Java installed, and issue the command `Project | Clean... | Clean all projects`. This will force the code to recompile and solve most problems due to out of date or improperly synched files, which sometimes happens.
+
 To ensure that everything works and start experimenting:
 
 1. In package `demo`, right-click on the file `Welcome.java` and select `Run As... | Java Application`. You should see a small GUI application appear. Try the different buttons which should do trigger some interaction from the user interface.
