@@ -2,6 +2,7 @@ package comp303.corp;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 
 /**
  * Represents the inventory of a 
@@ -10,7 +11,7 @@ import java.util.Iterator;
 public class Inventory implements Iterable<Item>
 {
 	private final String aName; // Unique
-	private final HashMap<Item, Integer> aInventory = new HashMap<>();
+	private final Map<Item, Integer> aInventory = new HashMap<>();
 	
 	/**
 	 * Creates a new inventory with no items in it,
@@ -47,12 +48,10 @@ public class Inventory implements Iterable<Item>
 	}
 	
 	/**
-	 * Removes pQuantity of items from the inventory,
-	 * for example by selling them or tossing them in
-	 * the garbage.
+	 * Removes pQuantity of items from the inventory.
 	 * @param pItem The type of item to dispose of
 	 * @param pQuantity The amount to dispose.
-	 * @pre aInventory.containsKey(pItem) && pQuantity >= aInventory.get(pItem)
+	 * @pre aInventory.containsKey(pItem) && pQuantity <= available(pItem)
 	 */
 	public void dispose(Item pItem, int pQuantity)
 	{
