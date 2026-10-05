@@ -1,12 +1,12 @@
 # COMP303 Starter Project
 
-Starter project configuration for the course [COMP 303: Software Design](https://github.com/prmr/COMP303)  at McGill University
+Starter project configuration for the course [COMP 303: Software Design](https://codeberg.org/mpr/comp303)  at McGill University
 
 This repository is configured to be seamlessly imported into the latest version of the [Eclipse IDE](https://www.eclipse.org/). However, if you know what you are doing, you can import the project into the IDE of your choice and find the corresponding tools.
 
 To set yourself up:
 
-1. Make sure you have [Eclipse for Java](https://www.eclipse.org/) (or your favorite Java IDE) and [Java 17 or higher](https://jdk.java.net/).
+1. Make sure you have [Eclipse for Java](https://www.eclipse.org/) (or your favorite Java IDE) and [Java 25 or higher](https://jdk.java.net/).
 2. Install JavaFX and create a library for it in Eclipse by following [these instructions](https://openjfx.io/openjfx-docs/#IDE-Eclipse)
 3. Make sure you call your library `JavaFX` to match the build configuration on the repository.
 4. **If on a Mac**, when you run the application, from the run configuration, make sure the checkbox "Use the -XstartOnFirstThread argument when launching with SWT" is not checked. 
@@ -28,7 +28,7 @@ Once everything works as described above, try the following:
 
 1. Fix the code to make the Checkstyle warnings go away. To see the full list of coding rules checked by the tool, right-click on the project and select `Properties | Checkstyle | Configure` and play around with the viewer.
 2. Change line 37 of file `AlternatingLabelProvider.java` to return `aLabel1` instead of `aLabel2`, and re-run the test. The test should fail.
-3. Learn some [seriously useful shortcuts](http://www.vogella.com/tutorials/EclipseShortcuts/article.html). My personal favorites are: `CTRL-1`, `CTRL-SHIFT-R`, `CTRL-SPACE`, `CTRL-O`, `ALT-SHIFT-R`.
+3. Learn some [seriously useful shortcuts](http://www.vogella.com/tutorials/EclipseShortcuts/article.html). My personal favorites are: <kbd>CTRL-1</kbd>, <kbd>CTRL-SHIFT-R</kbd>, <kbd>CTRL-SPACE</kbd>, <kbd>CTRL-O</kbd>, <kbd>ALT-SHIFT-R</kbd>.
 
 ---
 
@@ -36,4 +36,4 @@ Once everything works as described above, try the following:
 
 Unless otherwise noted, the content of this repository is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. 
 
-Copyright Martin P. Robillard 2022
+Copyright Martin P. Robillard 2026
