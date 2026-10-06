@@ -4,7 +4,7 @@ Starter project configuration for the course [COMP 303: Software Design](https:/
 
 This repository is configured to be seamlessly imported into the latest version of the [Eclipse IDE](https://www.eclipse.org/). However, if you know what you are doing, you can import the project into the IDE of your choice and find the corresponding tools.
 
-To set yourself up:
+To set yourself up ([for intellij, click here](https://github.com/0jas0jas/COMP303Starter/blob/master/intellij%20tutorial.md)):
 
 1. Make sure you have [Eclipse for Java](https://www.eclipse.org/) (or your favorite Java IDE) and [Java 25 or higher](https://jdk.java.net/).
 2. Install JavaFX and create a library for it in Eclipse by following [these instructions](https://openjfx.io/openjfx-docs/#IDE-Eclipse)
